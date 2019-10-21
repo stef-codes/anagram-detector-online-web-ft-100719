@@ -3,18 +3,13 @@ class Anagram
   attr_accessor :word
   
   def initialize(word) 
-    @word = word 
+      @word = word 
   end 
   
   def match(array)
-    matches = []
-    
-    #compare 
-
-    matches
+      array.select do  |string|
+      string.chars.sort == @word.chars.sort
+      end
   end 
-  
-  
-  
   
 end 
