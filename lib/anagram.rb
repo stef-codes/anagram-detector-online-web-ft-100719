@@ -9,7 +9,7 @@ class Anagram
   def match(array)
     matches = []
     
-    #logic here
+    #compare 
 
     matches
   end 
